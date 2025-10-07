@@ -1,6 +1,8 @@
 import type { Chat, Message } from "../types";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "https://chat-app-back-f28r.onrender.com/api";
+const API_BASE = import.meta.env.VITE_API_BASE
+  ? import.meta.env.VITE_API_BASE
+  : "https://chat-app-back-f28r.onrender.com/api";
 
 async function safeJson(res: Response) {
   if (!res.ok) throw new Error(await res.text());
