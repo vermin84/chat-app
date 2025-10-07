@@ -1,0 +1,21 @@
+.chatWrapper {
+    padding: 10px 5px;
+    display: flex;
+    flex-grow: 1;
+    height: 100dvh;
+    
+    box-sizing: border-box;
+}
+
+.chatView{
+    width: 100%;
+}
+
+.emptyList {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgb(222, 228, 232);
+}

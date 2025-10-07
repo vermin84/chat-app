@@ -1,0 +1,28 @@
+.messageBoxWrapper {
+    flex-grow: 1;
+    
+    padding: 25px 15px;
+    border-top: 1px solid rgb(177, 184, 187);
+}
+
+.messageBoxInputWrapper {
+    
+    position: relative;
+    margin: 0 5px;
+
+    width: 100%;
+    display: grid;  
+
+    
+}
+
+.messageBoxWrapper input{
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.messageBoxWrapper button{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}

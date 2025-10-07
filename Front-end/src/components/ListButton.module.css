@@ -1,0 +1,16 @@
+.listButton{
+    border: 1px solid rgb(104, 106, 107) ;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 25px;
+    transition: all 0.3s;
+    width: fit-content;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1),
+                 0 8px 20px rgba(0, 0, 0, 0.05);
+
+}
+
+.listButton:hover{
+    
+    background-color: rgb(138, 143, 145);
+}

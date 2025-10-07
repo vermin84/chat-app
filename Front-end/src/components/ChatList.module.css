@@ -1,0 +1,75 @@
+.chatListHeader {
+    background-color: #c8ced1;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(138, 143, 145);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1),
+                 0 8px 20px rgba(0, 0, 0, 0.05);
+    flex-shrink: 0;
+}
+
+.chatListHeader input {
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.chatListHeaderAction{
+    display: flex;
+    align-items: start;
+}
+
+.chatListWrapper {
+    border-right: 1px solid rgb(138, 143, 145);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatListBody{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.chatListItem{
+    background-color:rgb(221, 226, 229);
+    padding: 20px 15px 10px;
+    border-bottom: 1px solid rgb(138, 143, 145);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.chatListItem:hover{
+       border-bottom: 1px solid rgb(138, 143, 145);
+
+}
+.chatListAvatarWrapper{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.chatListAvatarWrapper img{
+    width: 100%;
+    object-fit: cover;
+}
+.chatListItemHeader{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.active{
+    background-color:rgb(199, 204, 207) ;
+}
+
+.chatListActions{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding:  15px 0 0 ;
+}
