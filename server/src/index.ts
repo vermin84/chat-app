@@ -8,7 +8,7 @@ import { connectDB } from "./db/connect.js";
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: "http://localhost:5173", // Адрес вашего фронта (Vite)
+  origin: ["https://chat-app-front-3aqq.onrender.com","http://localhost:5173"], // Адрес вашего фронта (Vite)
   credentials: true, // если нужны куки
 }));
 //app.use(cors());
